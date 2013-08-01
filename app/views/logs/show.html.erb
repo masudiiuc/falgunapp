@@ -10,6 +10,12 @@
   <dd><%= @log.key %></dd>
   <dt><strong><%= model_class.human_attribute_name(:api_code) %>:</strong></dt>
   <dd><%= @log.api_code %></dd>
+
+  <dt><strong><%= model_class.human_attribute_name(:user_email) %>:</strong></dt>
+  <dd><%= @log.user.email %></dd>
+
+  <dt><strong><%= model_class.human_attribute_name(:created_date) %>:</strong></dt>
+  <dd><%= @log.created_at %></dd>
 </dl>
 
 <div class="form-actions">

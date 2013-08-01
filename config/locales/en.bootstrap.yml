@@ -9,8 +9,9 @@ en:
       cancel: "Cancel"
       confirm: "Are you sure?"
       destroy: "Delete"
-      new: "New"
+      new: "Add New"
       edit: "Edit"
+      view_list: "View list"
     titles:
       edit: "Edit"
       save: "Save"
